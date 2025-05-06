@@ -1,0 +1,12 @@
+{
+	"devDependencies": {
+		"tailwindcss": "3"
+	},
+	"scripts": {
+
+			"watch-css": "npx tailwindcss -i ./base.css -o ../static/css/index.css --watch",
+
+			"build-prod": "npx tailwindcss -i ./base.css -o ../static/css/index.css --minify"
+
+		}
+}
